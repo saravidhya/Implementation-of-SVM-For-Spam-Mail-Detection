@@ -31,7 +31,7 @@ RegisterNumber:  212223230238
 ```
 ```
 import pandas as pd
-data= pd.read_csv("C:/Users/admin/Desktop/INTR MACH/spam.csv", encoding= 'Windows-1252')
+data= pd.read_csv("spam.csv")
 data.head()
 data.info()
 data.isnull().sum()
